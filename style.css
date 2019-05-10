@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Spectral+SC:600i");
+
+body {
+  background-color: #f1f4ef;
+  margin: 0px;
+}
+
+#header {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+img {
+  display: block;
+}
+
+#nav-bar {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  display: none;
+}
+
+#nav-bar-real {
+  display: block;
+  margin: 0px;
+  height: 60px;
+  padding: 0px;
+  background-color: #ee5253;
+  box-shadow: 0px 4px 8px grey;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  color: #f1f4ef;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #21283c;
+  text-decoration: none;
+  background-color: #d69b8c;
+}
+
+a:visited {
+  color: #faf9f9;
+  text-decoration: none;
+}
+
+#press,
+#how-it-works,
+#contact-us {
+  float: right;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+#typographic-logo {
+  font-family: "Spectral SC", serif;
+  font-size: 25px;
+  margin-left: 30px;
+  font-style: emph;
+  line-height: 20px;
+}
+
+
+section {
+  padding-bottom: 30px;
+}
+
+h1 {
+  color: #21283c;
+  line-height: 35px;
+  text-align: right;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.varro-logo {
+  color: #ee5253;
+  font-family: "Spectral SC", serif;
+  font-size: 40px;
+}
+
+h2 {
+  color: #ee5253;
+  text-align: left;
+  font-size: 34px;
+  line-height: 30px;
+}
+
+#text {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+  text-align: justify;
+  font-family: "Raleway";
+  font-size: 18px;
+}
+
+p {
+  color: #21283c;
+  font-size: 18px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#video-wrapper {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#press-clippings {
+  display: flex;
+  justify-content: space-between;
+}
+
+blockquote {
+  color: #21283c;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+blockquote:before {
+  content: open-quote;
+  font-size: 75px;
+  line-height: 20px;
+  color: #d69b8c;
+  font-family: "Spectral+SC";
+}
+
+blockquote:after {
+  content: close-quote;
+  font-size: 45px;
+  line-height: 30px;
+  color: #d69b8c;
+  font-family: "Spectral+SC";
+}
+
+.attribution {
+  text-align: right;
+  font-family: "Spectral SC", serif;
+  font-size: 25px;
+  color: #21283c;
+  margin-top: 5px;
+}
+
+.attribution:hover{
+  color: #d69b8c;
+}
+
+#form-wrapper {
+  text-align: center;
+}
+
+.text-input {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #21283c;
+}
+
+.button {
+  background-color: #d69b8c;
+  color: #21283c;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  #press-clippings {
+  display: flex;
+  flex-direction: column;
+}
+  blockquote {
+    font-size: 25px;
+  }
+  
+  li a {
+  font-size: 15px;
+}
+  h2 {
+    font-size: 28px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+}
